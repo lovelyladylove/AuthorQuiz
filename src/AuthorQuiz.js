@@ -20,6 +20,8 @@ function Book({title, onClick}) {
   );
 }
 
+
+
 function Turn({author, books, highlight, onAnswerSelected}) {
   function highlightToBgColor(highlight) {
     const mapping = {
