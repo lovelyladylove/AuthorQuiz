@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Route } from 'react-router-dom';
-
+import { BrowserRouter, Route, withRouter } from 'react-router-dom';
 import './index.css';
 import AuthorQuiz from './AuthorQuiz';
+import AddAuthorForm from './AddAuthorForm';
 import * as serviceWorker from './serviceWorker';
 import {shuffle, sample} from 'underscore';
 
@@ -78,23 +78,25 @@ function onAnswerSelected(answer) {
     render();
 }
 
-function AddAuthorForm({match}) {
-    return <div>
-        <h1>Add Author</h1>
-        <p>{JSON.stringify(match)}</p>
-    </div>
-}
+
 
 function App() {
     return <AuthorQuiz {...state} onAnswerSelected={onAnswerSelected} />;
 }
+
+const AuthorWrapper = withRouter(({ history }) => 
+     <AddAuthorForm onAddAuthor={(author) => {
+        authors.push(author);
+        history.push('/');
+    }} />
+};
 
 function render() {
     ReactDOM.render(
     <BrowserRouter>
         <React.Fragment>
             <Route exact path="/" component={App} />
-            <Route path="/add" component={AddAuthorForm} />
+            <Route path="/add" component={AuthorWrapper} />
         </React.Fragment>
     </BrowserRouter>, document.getElementById('root'));
 }
