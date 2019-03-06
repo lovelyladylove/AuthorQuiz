@@ -21,8 +21,6 @@ function Book({title, onClick}) {
   );
 }
 
-
-
 function Turn({author, books, highlight, onAnswerSelected}) {
   function highlightToBgColor(highlight) {
     const mapping = {
@@ -87,6 +85,5 @@ function AuthorQuiz({turnData, highlight, onAnswerSelected, onContinue}) {
       </div>
     );
   }
-
 
 export default AuthorQuiz;
