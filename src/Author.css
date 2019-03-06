@@ -1,3 +1,4 @@
+
 .turn > div {
   height: 400px;
 }
@@ -10,10 +11,11 @@
 .authorimage {
   max-height: 100%;
   width: 100%;
+  
 }
 
 .answer {
-  background-color: #F0F7FD;
+  background-color: rgb(147, 197, 240);
   border-color: #D0E3F0;
   margin-bottom: 20px;
   padding: 15px 30px 15px 15px;
@@ -22,7 +24,7 @@
 }
 
 .answer:hover {
-  background-color: #D0E3F0;
+  background-color:  rgb(43, 158, 235) ;
 }
 
 .continue {

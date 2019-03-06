@@ -83,8 +83,6 @@ function onAnswerSelected(answer) {
     render();
 }
 
-
-
 function App() {
     return <AuthorQuiz {...state}
         onAnswerSelected={onAnswerSelected}
