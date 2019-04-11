@@ -5,8 +5,8 @@
   "author": "lovelyladylove",
   "homepage": "https://lovelyladylove.github.io/AuthorQuiz/",
   "dependencies": {
-    "react": "^16.8.3",
-    "react-dom": "^16.8.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
     "react-router-dom": "^4.3.1",
     "react-scripts": "^2.1.8",
     "underscore": "^1.9.1"
