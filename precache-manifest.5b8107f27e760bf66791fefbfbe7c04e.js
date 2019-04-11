@@ -8,15 +8,15 @@ self.__precacheManifest = [
     "url": "/AuthorQuiz/static/js/main.fcb638e3.chunk.js"
   },
   {
-    "revision": "26722b92a59c9d741f09",
-    "url": "/AuthorQuiz/static/js/2.1cd514eb.chunk.js"
+    "revision": "fce6753ac1466179ebd0",
+    "url": "/AuthorQuiz/static/js/2.5bdc75d3.chunk.js"
   },
   {
     "revision": "191ecea470a4b9df3e4d",
     "url": "/AuthorQuiz/static/css/main.ea82a2b0.chunk.css"
   },
   {
-    "revision": "af6dcb3cdea84d2a064b5ef26241b0f5",
+    "revision": "c221af6f9a1beb9ce28d77bdb37f6ef8",
     "url": "/AuthorQuiz/index.html"
   }
 ];
