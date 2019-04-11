@@ -2,6 +2,7 @@
   "name": "authorquiz",
   "version": "0.1.0",
   "private": true,
+  "author": "lovelyladylove",
   "homepage": "https://lovelyladylove.github.io/AuthorQuiz/",
   "dependencies": {
     "react": "^16.8.3",
